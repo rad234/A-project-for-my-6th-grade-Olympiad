@@ -1,0 +1,60 @@
+.titlu-principal {
+    padding-left: 5%;
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.subtitlu-principal {
+    padding-left: 5%;
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.titluri-principale {
+    background-image: url(Poze/fundal-meniu.jpg);
+    background-size: auto;
+}
+
+.insigna-rosa {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.istoria, .rosa, .noi {
+    height: 80px;
+    width: 350px;
+    border: white;
+    border: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: darkblue;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 40px;
+} 
+
+.istoria {
+    margin-left: 18%;
+}
+
+.rosa {
+    margin-left: 5%;
+}
+
+.noi {
+    margin-left: 5%;
+}
+
+.istoria:hover, .rosa:hover, .noi:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+.istoria:active, .rosa:active, .noi:active {
+    background-color: lightblue;
+    cursor: grab;
+}
