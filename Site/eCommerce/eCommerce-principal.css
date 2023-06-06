@@ -1,0 +1,14 @@
+.taskbar {
+    background-color: #7289da;
+    border-radius: 3px;
+    border: none;
+    color: #1e2124;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.taskbar:hover {
+    cursor: pointer;
+}    
